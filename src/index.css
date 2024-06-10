@@ -1,0 +1,49 @@
+
+.navbar-nav .nav-item {
+  margin-right: 100px; 
+  font-weight: bold;
+ 
+  
+}
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: color 0.3s;
+  color: white;
+  margin-bottom: 10px; 
+  margin-top: 10px;
+  
+}
+.navbar-nav .nav-item .nav-link:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
+.heading{
+  font-weight: bold;
+}
+.card-body{
+  background-color:whitesmoke;
+}
+.card-header {
+  background-color:azure;
+  font: weight 30px;;
+}
+.card-body{
+  background-color:whitesmoke;
+}
+.card{
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.card-body{
+  background-color:azure;
+}
+.container-fluid{
+  background-color:rgb(red, green, blue) 72, 99, 160 ;
+}
+.container-fluid{
+background-color: #29465B;
+}
